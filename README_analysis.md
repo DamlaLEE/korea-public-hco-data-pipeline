@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e80a8ece-c694-4633-944d-9ea7c67e1740)# 🏥 Public Healthcare Organization Data Analysis – Summary
+# 🏥 Public Healthcare Organization Data Analysis – Summary
 
 This document summarizes the results of an exploratory data analysis (EDA) using public healthcare organization (HCO) data collected from HIRA. The goal is to demonstrate data engineering and analytical capabilities that align with business and customer success at Veeva Systems, including the use of web scraping, regex-based cleaning, and cloud storage readiness.
 
