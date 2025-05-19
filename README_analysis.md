@@ -48,7 +48,6 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 **[Table 2] Number and Rate by Province**
 
-```markdown
 | province_en | province_ko | count | rate(%) |
 |-------------|--------------|--------|----------|
 | Seoul       | 서울특별시    | 25149  | 24.13    |
@@ -68,11 +67,9 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | Ulsan       | 울산광역시    | 1879   | 1.80     |
 | Jeju        | 제주특별자치도 | 1374   | 1.32     |
 | Sejong      | 세종특별자치시 | 623    | 0.60     |
-```
 
-<p align="center">
-  <img src="chart2.mumber_of_HCOs_by_province.png" width="600" />
-</p>
+
+![chart2](./image/chart2.mumber_of_HCOs_by_province.png)
 
 **🔎 Insight:** Seoul and Gyeonggi together represent nearly 47% of HCOs. Regional concentration should be considered in outreach and service coverage planning.
 
