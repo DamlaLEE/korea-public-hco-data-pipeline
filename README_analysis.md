@@ -105,7 +105,7 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 - Total: Metropolitan areas like Seoul and Gyeonggi consistently lead in both total and average staffing levels, especially in internal medicine and other core specialties.
 ---
 
-### 📓 Appendix: Top Hospitals by Staff Count
+### 📓 Appendix: Top Hospitals by Medical Staff Count
 
 **[Table 4] Top 10 Tertiary Hospitals by Total Staff**
 ![Table4](images/table4.top10_tertiay_hospitals.PNG)
