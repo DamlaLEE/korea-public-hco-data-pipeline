@@ -1,4 +1,4 @@
-# 🏥 Public Healthcare Organization Data Analysis – Summary
+![image](https://github.com/user-attachments/assets/e80a8ece-c694-4633-944d-9ea7c67e1740)# 🏥 Public Healthcare Organization Data Analysis – Summary
 
 This document summarizes the results of an exploratory data analysis (EDA) using public healthcare organization (HCO) data collected from HIRA. The goal is to demonstrate data engineering and analytical capabilities that align with business and customer success at Veeva Systems, including the use of web scraping, regex-based cleaning, and cloud storage readiness.
 
@@ -87,11 +87,15 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | tertiary_hospital| 47             | 11.51          | 321.64       | 0.00             | 333.15                 |
 
 **🔎 Insight:** Tertiary hospitals average 333 staff per institution—more than 5 times the size of general hospitals. These institutions dominate in medical capacity and specialization.
+<p align="center">
+  <img src="images/chart3.average_medical_staff_per_specialty_by_province.png" width="48%" />
+  <img src="images/chart4.top10_specialties_avg_medical_staff_by_province.png" width="48%" />
+</p>
 
-![Chart3](images/chart3.average_medical_staff_per_specialty_by_province.png)
-![Chart4](images/chart4.top10_specialties_avg_medical_staff_by_province.png)
+**🔎 Insights:**
+- **Left**: Seoul and Gyeonggi show the highest total number of medical staff across all specialties.
+- **Right**: Internal medicine and surgery are the top staffed specialties on average across provinces, especially in metropolitan areas.
 
-**🔎 Insight:** These heatmaps reveal major differences in specialty staffing across provinces. Seoul stands out for its high concentration of internal medicine staff and top specialties. This variation supports the need for location-tailored coverage strategies.
 
 ![Chart5](images/chart5.average_number_of_internal_medicinc_staff_per_hospital_by_province.png)
 
