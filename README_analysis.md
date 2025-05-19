@@ -100,7 +100,7 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 ### 📓 Appendix: Top Hospitals by Staff Count
 
 **[Table 4] Top 10 Tertiary Hospitals by Total Staff**
-![Table4](images/table4.top10_tertiay_hospitals.png)
+![Table4](images/table4.top10_tertiay_hospitals.PNG)
 
 **[Table 5] Top 10 General Hospitals by Total Staff**
 ![Table5](images/table5.top10_general_hospital.png)
