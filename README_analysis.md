@@ -87,6 +87,7 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | tertiary_hospital| 47             | 11.51          | 321.64       | 0.00             | 333.15                 |
 
 **🔎 Insight:** Tertiary hospitals average 333 staff per institution—more than 5 times the size of general hospitals. These institutions dominate in medical capacity and specialization.
+
 <p align="center">
   <img src="images/chart3.average_medical_staff_per_specialty_by_province.png" width="48%" />
   <img src="images/chart4.top10_specialties_avg_medical_staff_by_province.png" width="48%" />
@@ -99,6 +100,9 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 ![Chart5](images/chart5.average_number_of_internal_medicinc_staff_per_hospital_by_province.png)
 
+**🔎 Insights:**
+- Seoul far surpasses all other regions with the highest average number of internal medicine staff per hospital.
+- Total: Metropolitan areas like Seoul and Gyeonggi consistently lead in both total and average staffing levels, especially in internal medicine and other core specialties.
 ---
 
 ### 📓 Appendix: Top Hospitals by Staff Count
