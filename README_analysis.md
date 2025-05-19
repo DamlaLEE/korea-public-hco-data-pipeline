@@ -21,7 +21,6 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 **[Table 1] Number and Rate by Category**
 
-```markdown
 | category_en           | category_ko         | count | rate(%) |
 |------------------------|----------------------|--------|----------|
 | clinic                 | 의원                 | 37196  | 35.68    |
@@ -40,11 +39,6 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | tertiary_hospital     | 상급종합복장         | 47     | 0.05     |
 | public_medical_center| 보건의료원           | 16     | 0.02     |
 | birth_center          | 조산원               | 16     | 0.02     |
-```
-
-<p align="center">
-  <img src="chart1.distribution_of_public_institutions_by_category.png" width="400" />
-</p>
 
 **🔎 Insight:** Clinics represent 35.7% of total HCOs, followed by pharmacies and dental clinics. Although general and tertiary hospitals account for a small fraction, they are essential due to their specialized services and staff size.
 
