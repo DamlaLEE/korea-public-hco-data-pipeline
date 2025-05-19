@@ -1,0 +1,5 @@
+[20250516_1945] Failed Clinic Dept Downloads
+==================================================
+- 방사선종양학과 (gubun21166): Download requested but no new file detected
+- 응급의학과 (gubun21173): Download requested but no new file detected
+- 핵의학과 (gubun21171): Download requested but no new file detected
