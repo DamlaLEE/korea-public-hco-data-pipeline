@@ -21,7 +21,6 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 **[Table 1] Number and Rate by Category**
 
-```markdown
 | category_en           | category_ko         | count | rate(%) |
 |------------------------|----------------------|--------|----------|
 | clinic                 | 의원                 | 37196  | 35.68    |
@@ -40,11 +39,8 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | tertiary_hospital     | 상급종합복장         | 47     | 0.05     |
 | public_medical_center| 보건의료원           | 16     | 0.02     |
 | birth_center          | 조산원               | 16     | 0.02     |
-```
 
-<p align="center">
-  <img src="chart1.distribution_of_public_institutions_by_category.png" width="400" />
-</p>
+![Chart1](images/chart1.distribution_of_public_institutions_by_category.png)
 
 **🔎 Insight:** Clinics represent 35.7% of total HCOs, followed by pharmacies and dental clinics. Although general and tertiary hospitals account for a small fraction, they are essential due to their specialized services and staff size.
 
@@ -54,7 +50,6 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 **[Table 2] Number and Rate by Province**
 
-```markdown
 | province_en | province_ko | count | rate(%) |
 |-------------|--------------|--------|----------|
 | Seoul       | 서울특별시    | 25149  | 24.13    |
@@ -74,11 +69,9 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | Ulsan       | 울산광역시    | 1879   | 1.80     |
 | Jeju        | 제주특별자치도 | 1374   | 1.32     |
 | Sejong      | 세종특별자치시 | 623    | 0.60     |
-```
 
-<p align="center">
-  <img src="chart2.mumber_of_HCOs_by_province.png" width="600" />
-</p>
+
+![Chart2](images/chart2.mumber_of_HCOs_by_province.png)
 
 **🔎 Insight:** Seoul and Gyeonggi together represent nearly 47% of HCOs. Regional concentration should be considered in outreach and service coverage planning.
 
@@ -88,44 +81,29 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 
 **[Table 3] Avg. Staff Count by Hospital Type**
 
-```markdown
 | category_en     | num_hospitals | num_dentists | num_doctors | num_korean_med | total_medical_staff |
 |------------------|----------------|----------------|--------------|------------------|------------------------|
 | general_hospital | 350            | 1.85           | 58.71        | 0.11             | 60.67                  |
 | tertiary_hospital| 47             | 11.51          | 321.64       | 0.00             | 333.15                 |
-```
-
-<p align="center">
-  <img src="d2f3dc28-44ab-4986-bbbd-53e967242324.png" width="650" />
-</p>
 
 **🔎 Insight:** Tertiary hospitals average 333 staff per institution—more than 5 times the size of general hospitals. These institutions dominate in medical capacity and specialization.
 
-<p align="center">
-  <img src="chart3.average_medical_staff_per_specialty_by_province.png" width="850" />
-  <br/><br/>
-  <img src="chart4.top10 specialties_avg_medical_staff_by_province.png" width="850" />
-  <br/><br/>
-  <img src="chart5.average_number_of_internal_medicinc_staff_per_hospital_by_province.png" width="850" />
-</p>
+![Chart3](images/chart3.average_medical_staff_per_specialty_by_province.png)
+![Chart4](images/chart4.top10_specialties_avg_medical_staff_by_province.png)
 
 **🔎 Insight:** These heatmaps reveal major differences in specialty staffing across provinces. Seoul stands out for its high concentration of internal medicine staff and top specialties. This variation supports the need for location-tailored coverage strategies.
+
+![Chart5](images/chart5.average_number_of_internal_medicinc_staff_per_hospital_by_province.png)
 
 ---
 
 ### 📓 Appendix: Top Hospitals by Staff Count
 
 **[Table 4] Top 10 Tertiary Hospitals by Total Staff**
-
-<p align="center">
-  <img src="06f2dbeb-a477-43e7-a7e8-36fb1bdb34b5.png" width="700" />
-</p>
+![Table4](images/table4.top10_tertiay_hospitals.PNG)
 
 **[Table 5] Top 10 General Hospitals by Total Staff**
-
-<p align="center">
-  <img src="302bddc0-203a-46f6-a2a1-b7ee8b43eb79.png" width="700" />
-</p>
+![Table5](images/table5.top10_general_hospital.png)
 
 ---
 
