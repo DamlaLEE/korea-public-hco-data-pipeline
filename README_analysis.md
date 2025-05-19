@@ -71,7 +71,7 @@ The full pipeline, implemented in the `hco_data_pipeline.ipynb` notebook, follow
 | Sejong      | 세종특별자치시 | 623    | 0.60     |
 
 
-![Chart2](images/chart2.mumber_of_HCOs_by_province.png)
+![Chart2](images/chart2.number_of_HCOs_by_province.png)
 
 **🔎 Insight:** Seoul and Gyeonggi together represent nearly 47% of HCOs. Regional concentration should be considered in outreach and service coverage planning.
 
